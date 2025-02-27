@@ -4,7 +4,7 @@ import DisplayHome from './DisplayHome'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
 
-const Display = () => {
+const display = () => {
 
     const displayRef = useRef();
     const location = useLocation();
@@ -33,4 +33,4 @@ useEffect(()=>{
   )
 }
 
-export default Display
+export default display
